@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLFW"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\exts\;CMake Files\exts\glfw-3.1.1\;CMake Files\exts\glfw-3.1.1\src\;CMake Files\exts\glew\;CMake Files\projects\;CMake Files\projects\example\;CMake Files\engine\;CMake Files\engine\core\;CMake Files\engine\render\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src"/>
+					<Add directory="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src"/>
+					<Add directory="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/glx_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/glx_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/linux_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/linux_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/posix_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/posix_time.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/posix_tls.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/posix_tls.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/x11_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/x11_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/x11_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/x11_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/xkb_unicode.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/xkb_unicode.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glfw-3.1.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glew\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/exts/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glew\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/projects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/projects/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\example\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/projects/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\example\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\engine\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/engine/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\engine\core\"/>
+		</Unit>
+		<Unit filename="/home/bill/wilenn-5/S0008E/Labb1/lab-env-master/engine/render/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\engine\render\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
